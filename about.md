@@ -26,7 +26,7 @@ header-img: "img/green.jpg"
 
 ###联系
 
-- [E-mail:smartchy@outlook.com](mailto:smartchy@outlook.com)
+- E-mail:[smartchy@outlook.com](mailto:smartchy@outlook.com)
 
 - 公众号：MacTrick
 
