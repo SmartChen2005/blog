@@ -14,7 +14,7 @@ header-img: "img/zhihu.jpg"
 <h4>2005.3.24</h4>
 出生
 <h4>2016.12.20</h4>
-接触Python语言
+Python "Hello,world!"
 <h4>2017.6.10</h4>
 注册MacTrick微信公众号
 <h4>2017.7.20</h4>
