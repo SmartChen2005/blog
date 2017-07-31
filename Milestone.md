@@ -10,7 +10,7 @@ header-img: "img/zhihu.jpg"
     <p><img src="http://nzr2ybsda.qnssl.com/images/74643/FqpyIlmjsJ9tHYgqaCHZnpfsqwAf.png?imageMogr2/strip/thumbnail/!200x200r/gravity/Center/crop/200x200/format/png" align="center"></p>
 </center>
 
-
+<center>
 <h4>2005.3.24</h4>
 出生
 <h4>2016.12.20</h4>
@@ -22,4 +22,5 @@ Python "Hello,world!"
 <h4>2017.7.21</h4>
 用代码写了这个网站
 
+</center>
 
