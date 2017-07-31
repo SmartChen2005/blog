@@ -15,7 +15,7 @@ header-img: "img/green.jpg"
 现在研习 **HTML/CSS/JavaScript** 。
 
 
-###关注：
+<h3>关注</h3>
 
 
 - 写作
@@ -24,7 +24,7 @@ header-img: "img/green.jpg"
 
 
 
-###联系
+<h3>联系</h3>
 
 - E-mail:[smartchy@outlook.com](mailto:smartchy@outlook.com)
 
