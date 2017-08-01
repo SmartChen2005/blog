@@ -28,7 +28,7 @@ header-img: "img/green.jpg"
 
 - E-mail:[smartchy@outlook.com](mailto:smartchy@outlook.com)
 
-- 公众号：MacTrick
+- 公众号：[MacTrick](http://mactrick.sxl.cn)
 
 
 <center>
