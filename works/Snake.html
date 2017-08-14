@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake!</title>
+    </head>
+    <body>
+        <canvas id="canvas" width=500 height=500></canvas>
+        
+        <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+        
+        <script>
+
+
+            //初始化画布及基础参数
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+            
+            var width = canvas.width;
+            var height = canvas.height;
+            
+            var blockSize = 10;
+            var widthInBlocks = width/blockSize;
+            var heightInBlocks = height/blockSize;
+            
+            var score = 0;
+            
+            //绘制游戏区域
+            function drawBorder() {
+                ctx.fillStyle = "Gray";
+                ctx.fillRect(0,0,width,blockSize);
+                ctx.fillRect(0,height-blockSize,width,blockSize);
+                ctx.fillRect(0,0,blockSize,height);
+                ctx.fillRect(width-blockSize,0,blockSize,height);
+            };
+            
+            //绘制分数及控制说明
+            function drawScore() {
+                ctx.font = "20px Courier";
+                ctx.fillStyle = "Black";
+                ctx.textAlign = "left";
+                ctx.textBaseline = "top";
+                ctx.fillText("  键盘控制方向：W上 A左 S下 D右  Score: "+score,blockSize,blockSize);
+            };
+            
+            //绘制游戏结束说明
+            function gameOver(){
+                clearInterval(intervalId);
+                ctx.font = "60px Courier";
+                ctx.fillStyle = "Black";
+                ctx.textAlign = "center";
+                ctx.textBaseline = "middle";
+                ctx.fillText("Game Over",width/2,height/2)
+            };
+            
+
+            //绘制贪吃蛇吃的苹果
+            function circle(x,y,color) {
+                ctx.beginPath();
+                ctx.arc(x,y,5,0,Math.PI*2,false);
+                ctx.fillStyle=color;
+                ctx.fill();
+            };
+            
+            //区块，蛇身及苹果
+            function Block(col,row) {
+                this.col = col;
+                this.row = row;
+            };
+            
+            //绘制每个区块
+            Block.prototype.drawSquare = function(color) {
+                var x = this.col*blockSize;
+                var y = this.row*blockSize;
+                //console.log("===x="+x+"====y==="+y);
+                ctx.fillStyle = color;
+                ctx.fillRect(x,y,blockSize,blockSize);
+            };
+            
+            //绘制区块苹果
+            Block.prototype.drwCircle = function(color){
+                var centerX = this.col*blockSize+blockSize/2;
+                var centerY = this.row*blockSize+blockSize/2;
+                ctx.fillStyle = color;
+                console.log(centerX + "====" + centerY);
+                circle(centerX,centerY,color,blockSize/2,true);
+            };
+            
+            Block.prototype.equal = function(otherBlock){
+                return this.col == otherBlock.col && this.row == otherBlock.row;
+            };
+            
+            //贪吃蛇对象
+            function Snake() {
+                this.segments = [
+                  new Block(20,20),
+                  new Block(21,20),
+                  new Block(22,20),
+                  new Block(23,20)
+                ];
+                
+                this.direction = "right";
+                this.nextDirection = "right";
+            };
+            
+            //绘制贪吃蛇
+            Snake.prototype.draw = function(){
+                for (var i = 0;i<this.segments.length;i++){
+                    this.segments[i].drawSquare("Blue");
+                }
+            };
+            
+            //贪吃蛇移动
+            Snake.prototype.move = function(){
+                var head = this.segments[0];
+                var newHead = head;
+                
+                this.nextDrection = this.direction;
+                
+                //console.log(this.nextDrection + "====" + this.direction);
+                //根据键盘相应的方向更改贪吃蛇下一步的方向的区块
+                if (this.direction == "right") {
+                    newHead = new Block(head.col + 1,head.row);
+                }else if (this.direction == "down") {
+                    newHead = new Block(head.col,head.row + 1);
+                }else if (this.direction == "left") {
+                    newHead = new Block(head.col - 1,head.row);
+                }else if (this.direction == "up") {
+                    newHead = new Block(head.col,head.row - 1);
+                }
+
+                //console.log(head);
+                //console.log(newHead);
+                
+                //检查是否超出边界或者碰撞到自己
+                
+                if (this.checkCollision(newHead)) {
+                    console.log("game over");
+                    gameOver();
+                    return;
+                }
+                
+                
+                this.segments.unshift(newHead);
+                
+                if (newHead.equal(apple.position)) {
+                    score++;
+                    apple.move();
+                    apple.draw();
+                }else{
+                    this.segments.pop();
+                }
+            };
+            
+            //检测贪吃蛇是否碰撞到边界
+            Snake.prototype.checkCollision = function(head){
+                var leftCollision = (head.col == 0);
+                var topCollision = (head.row == 0);
+                var rightCollision = (head.col == widthInBlocks - 1);
+                var bottomCollision = (head.row == heightInBlocks - 1);
+                
+                var wallCollision = leftCollision || topCollision || rightCollision || bottomCollision;
+
+                console.log(wallCollision);
+                
+                var selfCollision = false;
+                
+                //检测贪吃蛇是否碰撞到自己
+                /*
+                for (var i = 0;i<this.segments.length;i++) {
+                    if (head.equal(this.segments[i])) {
+                        selfCollision = true;
+                    }
+                }
+                */
+
+                //console.log(wallCollision);
+
+                //console.log(selfCollision);
+                
+                return wallCollision || selfCollision
+            };
+            
+            //设置贪吃蛇的下一步运动方向
+            Snake.prototype.setDirection = function (newDirection){
+                
+                //console.log("==========="+newDirection);
+
+
+                if (this.direction == "up" && newDirection == "down") {
+                    return;
+                }else if (this.direction == "right" && newDirection == "left") {
+                    return;
+                }else if (this.direction == "down" && newDirection == "up") {
+                    return;
+                }else if (this.direction == "left" && newDirection == "right") {
+                    return;
+                }
+                //console.log("==========="+newDirection);
+                
+                this.direction = newDirection;
+            };
+            
+            function Apple() {
+                this.position = new Block(10,10);
+            };
+            
+            Apple.prototype.draw = function(){
+                this.position.drwCircle("Green");
+            };
+            
+            Apple.prototype.move = function(){
+                var randomCol = Math.floor(Math.random() * (widthInBlocks - 2)) + 1;
+                var randomRow = Math.floor(Math.random() * (heightInBlocks - 2)) + 1;
+                this.position = new Block(randomCol,randomRow);
+            };
+            
+            var snake = new Snake();
+            var apple = new Apple()
+            
+            var intervalId = setInterval(function(){
+                ctx.clearRect(0,0,width,height);          
+                drawScore();
+                snake.move();
+                snake.draw();
+                snake.draw();                
+                drawBorder();       
+
+                apple.draw();         
+            },100);
+
+            //重新定义asdf为方向键，原来代码的方向键定义不识别
+            var directions = {
+              65:"left",  // d key
+              87:"up",    // w key
+              68:"right",  // a key
+              83:"down"    // s key
+            };
+            
+            //监听键盘的按键
+            $("body").keydown(function(event){
+                var newDirection = directions[event.keyCode];
+                //console.log(newDirection);
+                if (newDirection != undefined) {
+                    snake.setDirection(newDirection);
+                }
+            });
+        </script>
+    </body>
+</html>
+
