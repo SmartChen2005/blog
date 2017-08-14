@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+    </head>
+    <body>
+        <h1>Hangman</h1>
+        <script>
+        alert('All the words in this Hangman game are name of programming language.')
+        var words = [
+            'java',
+            'javascript',
+            'python',
+            'c++',
+            'c',
+            'swift',
+            'c#',
+            'objective-c',
+            'smalltalk',
+            'scratch'
+            'basic'
+        ];
+        var word = words[Math.floor(Math.random()*words.length)];
+        
+        var answerArray = [];
+        for(var i=0;i<word.length;i++){
+            answerArray[i] = '_';
+        }
+        var remainingLetters = word.length;
+        var tries = 10;
+        alert('You have 10 tries.')
+        while (remainingLetters>0 && tries!=0){
+            alert(answerArray.join(' '));
+            var guess = prompt('Guess a letter,or click Cancel to stop playing.');
+            if (guess === null) {
+                break;
+            }else if (guess.length !== 1) {
+                alert('Please enter a single letter.')
+            }else{
+                guess = guess.toLowerCase()
+                if (!(guess in answerArray)) {
+                    for (var j=0;j<word.length;j++) {
+                        if (word[j] === guess) {
+                            answerArray[j] = guess;
+                            remainingLetters--;
+                        }
+                    }
+                }  else{
+                    alert('You have guess this before.')
+                }
+                tries--;
+            }
+        }
+        alert('Your answer is '+answerArray.join(' ')+'.');
+        alert('The answer was '+word+'.');
+        </script>
+    </body>
+</html>
