@@ -11,7 +11,7 @@ header-img: "img/green.jpg"
 
 我是陈弘毅，一个初中生，一个热爱计算机编程的人
 
-现在研习 **HTML/CSS/JavaScript** 。
+现在研习 **HTML/CSS/JavaScript和Flash** 。
 
 
 <h3>关注</h3>
