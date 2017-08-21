@@ -28,8 +28,7 @@ header-img: "img/green.jpg"
 
 - E-mail:[smartchy@outlook.com](mailto:smartchy@outlook.com)
 
-- 公众号：[MacTrick](http://mactrick.sxl.cn)
-
+- 公众号：MacTrick
 
 <center>
     <p><img src="http://nzr2ybsda.qnssl.com/images/74643/FsDEcZQEMjNTCv7GrtmvGGcThjhX.jpg?imageMogr2/strip/thumbnail/1200x9000%3E/interlace/1/format/jpg" align="center"></p>
