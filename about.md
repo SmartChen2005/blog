@@ -31,7 +31,7 @@ header-img: "img/green.jpg"
 - 公众号：MacTrick
 
 <center>
-    <p><img src="http://nzr2ybsda.qnssl.com/images/74643/FsDEcZQEMjNTCv7GrtmvGGcThjhX.jpg?imageMogr2/strip/thumbnail/1200x9000%3E/interlace/1/format/jpg" align="center"></p>
+    <p><img src="http://nzr2ybsda.qnssl.com/images/74643/FsZh31fBsb1sgfy-wPT-4z14BCSy.jpg?imageMogr2/strip/thumbnail/!200x200r/gravity/Center/crop/200x200/interlace/1/format/jpeg" align="center"></p>
 </center>
 
 <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a><a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a><a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a></div>
