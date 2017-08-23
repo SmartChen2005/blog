@@ -6,7 +6,7 @@
     <body>
         <h1>Hangman</h1>
         <script>
-        alert('All the words in this Hangman game are name of programming language.')
+        alert('这个Hangman游戏中的单词都是编程语言的名字')
         var words = [
             'java',
             'javascript',
@@ -31,11 +31,11 @@
         alert('You have 10 tries.')
         while (remainingLetters>0 && tries!=0){
             alert(answerArray.join(' '));
-            var guess = prompt('Guess a letter,or click Cancel to stop playing.');
+            var guess = prompt('猜一个字母，或点击取消结束游戏');
             if (guess === null) {
                 break;
             }else if (guess.length !== 1) {
-                alert('Please enter a single letter.')
+                alert('每次只能猜一个字母')
             }else{
                 guess = guess.toLowerCase()
                 if (!(guess in answerArray)) {
@@ -46,13 +46,13 @@
                         }
                     }
                 }  else{
-                    alert('You have guess this before.')
+                    alert('你猜过这个字母了')
                 }
                 tries--;
             }
         }
-        alert('Your answer is '+answerArray.join(' ')+'.');
-        alert('The answer was '+word+'.');
+        alert('你的答案是'+answerArray.join(' '));
+        alert('正确答案是'+word);
         </script>
     </body>
 </html>
