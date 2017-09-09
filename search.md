@@ -22,6 +22,3 @@ function baidu()
 <input name="text" type="text" size="30">
 <input name="button" type="button" id="button" value="搜索" onclick="baidu()">
 </form>
-<br>
-<br>
-<center><h5>Copyright 2017 by Smart Chen</h5></center>
