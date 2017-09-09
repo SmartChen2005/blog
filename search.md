@@ -19,7 +19,7 @@ function baidu()
 </script>
 
 <form name="search" align="center">
-<input name="text" type="text" size="40">
+<input name="text" type="text" size="30">
 <input name="button" type="button" id="button" value="搜索" onclick="baidu()">
 </form>
 
