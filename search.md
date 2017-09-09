@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Smart Search"
+title: "Search"
 description: "Smart Chen的私人搜索平台"
 header-img: "img/sxl.png"
 ---
@@ -23,4 +23,4 @@ function baidu()
 <input name="button" type="button" id="button" value="搜索" onclick="baidu()">
 </form>
 
-<center><h6>Copyright 2017 by Smart Chen</h6></center>
+<center><h5>Copyright 2017 by Smart Chen</h5></center>
