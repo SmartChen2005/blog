@@ -18,13 +18,9 @@ function baidu()
 }
 </script>
 
-<center>
-<p><h1>Smart Search</h1><a href="http://chenhongyi.cc"><img src="http://nzr2ybsda.qnssl.com/images/74643/FqpyIlmjsJ9tHYgqaCHZnpfsqwAf.png?imageMogr2/strip/thumbnail/!75x75r/gravity/Center/crop/75x75/format/png"></a></p>
-</center>
-
 <form name="search" align="center">
 <input name="text" type="text" size="40">
 <input name="button" type="button" id="button" value="搜索" onclick="baidu()">
 </form>
 
-<center><h4>Copyright 2017 by Smart Chen</h4></center>
+<center><h6>Copyright 2017 by Smart Chen</h6></center>
