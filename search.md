@@ -2,7 +2,7 @@
 layout: page
 title: "Search"
 description: "Smart Chen的私人搜索平台"
-header-img: "img/sxl.png"
+header-img: "img/twitter.jpg"
 ---
 
 <script language="javascript">
