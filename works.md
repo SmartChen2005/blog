@@ -2,7 +2,7 @@
 layout: page
 title: "Works"
 description: "我的程序"
-header-img: "img/weixin.png"
+header-img: "img/twitter.jpg"
 ---
 
 <center>
