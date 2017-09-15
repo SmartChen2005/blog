@@ -16,9 +16,20 @@ function baidu()
 	window.open(baidu_search);
 	}
 }
+function google()
+{
+	if(document.search.text.value=="")
+	{
+		alert("你貌似什么都没有输入···");
+	}else{
+		var google_search = "https://www.google.com/search?q="+document.search.text.value+"&ie=utf-8&oe=utf-8"
+	window.open(google_search);
+	}
+}
 </script>
 
 <form name="search" align="center">
 <input name="text" type="text" size="30">
-<input name="button" type="button" id="button" value="搜索" onclick="baidu()">
+<input name="button1" type="button" id="button1" value="百度搜索" onclick="baidu()>
+<input name="button2" type="button" id="button2" value="谷歌搜索" onclick="google()>
 </form>
