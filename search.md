@@ -29,7 +29,7 @@ function google()
 </script>
 
 <form name="search" align="center">
-<input name="text" type="text" size="30">
+<input name="text" type="text" size="35">
 <input name="button1" type="button" id="button1" value="百度搜索" onclick="baidu()">
 <input name="button2" type="button" id="button2" value="谷歌搜索" onclick="google()">
 </form>
