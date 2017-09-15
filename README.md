@@ -1,5 +1,5 @@
 <em><h3>陈弘毅的网站</h3></em>
-<h5><a href="https://smartchen2005.github.io/">smartchen2005.github.io</a></h5>
+<h5><a href="http://chenhongyi.cc">chenhongyi.cc</a></h5>
 <pre>
                               ()
                            () |
