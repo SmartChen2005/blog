@@ -32,4 +32,5 @@ function google()
 <input name="text" type="text" size="35">
 <input name="button1" type="button" id="button1" value="百度搜索" onclick="baidu()">
 <input name="button2" type="button" id="button2" value="谷歌搜索" onclick="google()">
+<center>无法使用谷歌搜索？<a href="http://chenhongyi.cc/blog/2017/06/10/Google%E8%AE%BF%E9%97%AE%E5%8A%A9%E6%89%8B/">点我！</a></center>
 </form>
