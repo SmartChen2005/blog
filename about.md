@@ -6,6 +6,7 @@ header-img: "img/green.jpg"
 ---
 
 我是陈弘毅，一个初中生，一个热爱计算机编程的人
+<br>
 现就读于 **<a href="http://www.rdfzcygj.cn/">人大附中朝阳分校</a>**
 
 现在研习 **HTML/CSS/JavaScript和Flash**
