@@ -6,7 +6,7 @@ header-img: "img/green.jpg"
 ---
 
 我是陈弘毅，一个初中生，一个热爱计算机编程的人，一个极客
-<img src="http://s1.wailian.download/2017/09/19/Geek.png" alt="Geek.png" width="500" height="500" >
+<img src="https://camo.githubusercontent.com/292bf15dc5971dd0af528fc5698b75e6420cfacd/687474703a2f2f73312e7761696c69616e2e646f776e6c6f61642f323031372f30392f31392f4765656b2e706e67" width="500" height="500" >
 <br>
 现就读于 **<a href="http://www.rdfzcygj.cn/">人大附中朝阳分校</a>**
 
