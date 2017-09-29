@@ -25,7 +25,7 @@ header-img: "img/green.jpg"
 
 <h3>联系</h3>
 
-- E-mail:[smartchy@outlook.com](mailto:smartchy@outlook.com)
+- E-mail: [smart@chenhongyi.cc](mailto:smart@chenhongyi.cc)
 
 - 公众号：MacTrick
 
