@@ -25,7 +25,7 @@ header-img: "img/green.jpg"
 
 <h3>联系</h3>
 
-- E-mail: <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=luX79_Ti1vX_8-j__fjx7-_49fU" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a>
+- E-mail: [smart@chenhongyi.cc](mailto:smart@chenhongyi.cc)
 
 - 公众号：MacTrick
 
