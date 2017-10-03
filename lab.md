@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Works"
-description: "我的程序"
+title: "Lab"
+description: "实验室"
 header-img: "img/sxl.png"
 ---
 
