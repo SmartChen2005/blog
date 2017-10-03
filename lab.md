@@ -10,7 +10,7 @@ header-img: "img/sxl.png"
 
 <h3>»Games</h3>
 <h5><a href="http://chenhongyi.cc/works/Paper Minecraft">~Paper Minecraft</a></h5>
-<h5><a href="http://chenhongyi.cc/works/扫雷小游戏.html">~扫雷小游戏</a></h5>
+<h5><a href="http://chenhongyi.cc/works/扫雷小游戏">~扫雷小游戏</a></h5>
 <h5><a href="http://chenhongyi.cc/works/Snake.html">~Snake</a></h5>
 <h5><a href="http://chenhongyi.cc/works/Find The Buried Treasure.html">~Find The Buried Treasure</a></h5>
 
