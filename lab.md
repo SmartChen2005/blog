@@ -6,8 +6,8 @@ header-img: "img/sxl.png"
 ---
 
 <h3>»Tools</h3>
-<h5><a href="python">~Python Online</a></h5>
-<h5><a href="md">~Online Markdown Editor</a></h5>
+<h5><a href="http://chenhongyi.cc/python">~Python Online</a></h5>
+<h5><a href="http://chenhongyi.cc/md">~Online Markdown Editor</a></h5>
 
 <h3>»Games</h3>
 <h5><a href="Paper Minecraft">~Paper Minecraft</a></h5>
