@@ -13,6 +13,20 @@
     {% include nav.html %}
 
     {{ content }}
+    <!-- 广告位：new -->
+    <script>
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div id="' + s + '"></div>');
+        (window.slotbydup=window.slotbydup || []).push({
+            id: '4869758',
+            container: s,
+            size: '1000,90',
+            display: 'inlay-fix'
+        });
+    })();
+    </script>
+    <script src="http://dup.baidustatic.com/js/os.js"></script>
 
     {% include footer.html %}
 
