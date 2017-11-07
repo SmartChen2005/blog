@@ -1,11 +1,7 @@
 ---
 layout: page
 title: "Archive"
-<<<<<<< HEAD
 description: "文章馆"
-=======
-description: "文章归档"
->>>>>>> cnfeat/master
 header-img: "img/orange.jpg"
 ---
 
