@@ -1,6 +1,6 @@
 # Site settings
 title: Smart Chen
-header-img: "img/facebook.jpg"
+header-img: "img/home.png"
 tagline: "cn"  
 description: "Smart Chen的网站"  
 baseurl: ""
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "Smart Chen"
-      header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/home.png" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
