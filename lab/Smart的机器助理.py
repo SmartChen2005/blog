@@ -1,13 +1,13 @@
 """
-ÓÃPython3ÔËĞĞ´Ë³ÌĞò£¬¼´¿ÉÓëSmartµÄ»úÆ÷ÖúÀíÁÄÌì£¡
+ç”¨Python3è¿è¡Œæ­¤ç¨‹åºï¼Œå³å¯ä¸Smartçš„æœºå™¨åŠ©ç†èŠå¤©ï¼
 
-more on www.chenhongyi.cc
+more on www.chenhongyi.cc/lab/
 
 """
 import requests
 
 user_name = input("Enter your name:")
-print("ÄãºÃ"+user_name+"£¬ÎÒÊÇSmartµÄ»úÆ÷ÖúÀí")
+print("ä½ å¥½"+user_name+"ï¼Œæˆ‘æ˜¯Smartçš„æœºå™¨åŠ©ç†")
 while 1:
     s = input()
     resp = requests.post("http://www.tuling123.com/openapi/api", data={
@@ -16,4 +16,4 @@ while 1:
         "userid": user_name
     })
     resp = resp.json()
-    print("SmartµÄ»úÆ÷ÖúÀí£º"+resp['text'])
+    print("Smartçš„æœºå™¨åŠ©ç†ï¼š"+resp['text'])
