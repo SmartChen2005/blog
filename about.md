@@ -27,7 +27,8 @@ header-img: "img/green.jpg"
 
 - E-mail: [smart@chenhongyi.cc](mailto:smart@chenhongyi.cc)
 
-- 公众号: MacTrick   Website:<a href = "http://mactrick.chenhongyi.cc">mactrick.chenhongyi.cc</a>
+- 公众号: MacTrick
+    Website:<a href = "http://mactrick.chenhongyi.cc">mactrick.chenhongyi.cc</a>
 
     <p><img src="http://nzr2ybsda.qnssl.com/images/74643/FsZh31fBsb1sgfy-wPT-4z14BCSy.jpg?imageMogr2/strip/thumbnail/!200x200r/gravity/Center/crop/200x200/interlace/1/format/jpeg" align="center"></p>
 
