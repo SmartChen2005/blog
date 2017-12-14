@@ -8,6 +8,7 @@ header-img: "img/sxl.png"
 <h3>»Tools</h3>
 <h5><a href="http://chenhongyi.cc/md">~Online Markdown Editor</a></h5>
 <h5><a href="http://chenhongyi.cc/lab/kill-student-main.vbs">~关闭学生端</a></h5>
+<h5><a href="http://chenhongyi.cc/lab/virus.html">~Virus病毒</a></h5>
 
 <h3>»Games</h3>
 <h5><a href="Paper Minecraft">~Paper Minecraft</a></h5>
