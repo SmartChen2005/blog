@@ -3,7 +3,7 @@ layout: post
 title: Apple Watch Series 3 测评
 date: 2018-01-27
 categories: blog
-tags: [Apple,测评]
+tags: [Watch,测评]
 description: 差点丢失电脑所有数据~~~
 ---
 
