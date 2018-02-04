@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Archive"
-description: "文章馆"
+title: "文章馆"
+description: "Archive"
 header-img: "img/orange.jpg"
 ---
 

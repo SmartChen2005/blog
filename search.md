@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Search"
+title: "搜索"
 description: "Smart Chen的私人搜索平台"
 header-img: "img/twitter.jpg"
 ---

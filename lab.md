@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lab"
-description: "实验室"
+title: "实验室"
+description: "Lab"
 header-img: "img/sxl.png"
 ---
 
