@@ -15,8 +15,7 @@ description: 差点丢失电脑所有数据~~~
 
 PS:本篇文章可能会使您失去至少2588元，请慎入！！！
 
-关于 Apple Watch Series 3 你必须知道的几点
-
+<h4>关于 Apple Watch Series 3 你必须知道的几点</h4>h4>
 
 1.Apple Watch Series 3 共有两款：一款GPS版，一款GPS+蜂窝移动版（后者约贵500元） 2.由官网上的图片就可知道，Apple Watch Series 3 是防水的！这意味着您可以戴着它游泳（然而我舍不得把它扔到水里🙃） 3.Apple Watch 采用无线充电的技术！！！（是的，和iPhone X的充电方式一样）
 
@@ -27,7 +26,7 @@ PS:本篇文章可能会使您失去至少2588元，请慎入！！！
 4.若想使用 Apple Watch，您就必须有一台 iPhone（GPS版需要iPhone 5s及更新机型，GPS+蜂窝移动版需要iPhone 6及更新机型）。否则，您的 Apple Watch 就可以送给别人了（比如小编我🙃，我不会拒绝的🙃） 5.Apple Watch Series 3 支持重度按压（能识别出您按压屏幕时的力度）
 
 
-#### Apple Watch比其他智能手表好在哪里
+<h4>Apple Watch比其他智能手表好在哪里</h4>h4>
 
 1.系统 watchOS绝对是世界上最好用的智能手表系统（没有之一，和iOS及macOS一样🙃），它简洁，实用，且有很多人性化的设计 Apple Watch有许多表盘样式，您可在手表或手机的 Apple Watch 应用中设置
 
