@@ -8,7 +8,7 @@ header-img: "img/blue.jpg"
 <center>
 <h4>公众号里会讲什么</h4>
 - Mac电脑的使用技巧与诀窍，包含Python3、Google Chrome以及其他实用的app
-####公众号是为谁准备的
+<h4>公众号是为谁准备的</h4>
 - Pythoneer，苹果爱好者和喜欢Google的人。当然，如果你不是这几种人，也可以关注哦
 
 立刻扫码上车 O(∩_∩)O~
