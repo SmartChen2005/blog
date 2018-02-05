@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Milestone"
-description: "Smart Chen的里程碑"
+title: "里程碑"
+description: "Milestone"
 header-img: "img/zhihu.jpg"
 ---
 
