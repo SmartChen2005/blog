@@ -1,5 +1,5 @@
-<em><h3>陈弘毅的网站</h3></em>
-<h5><a href="http://chenhongyi.cc">chenhongyi.cc</a></h5>
+<em><h3>My Blog</h3></em>
+<h5><a href="http://blog.chenhongyi.cc">chenhongyi.cc</a></h5>
 <pre>
                               ()
                            () |
@@ -21,4 +21,3 @@
        ||  ||  \_-'=|||                   ||
   -----++--++-------++--------------------++--------
 </pre>
-Copyright 2017 by Smart Chen
