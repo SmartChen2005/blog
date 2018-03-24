@@ -14,6 +14,7 @@ header-img: "img/blue.jpg"
 立刻扫码上车 O(∩_∩)O~
 <img src="http://nzr2ybsda.qnssl.com/images/74643/FsZh31fBsb1sgfy-wPT-4z14BCSy.jpg?imageMogr2/strip/thumbnail/!200x200r/gravity/Center/crop/200x200/interlace/1/format/jpeg">
 
+
 <h4>我的······小程序！！！</h4>
 是的，小编有了一个小程序！
 我也会在小程序上发布一些文章。和网站比起来，它更迅速（尤其是留言区），使用更方便，推荐手机用户使用。
